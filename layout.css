@@ -1,0 +1,129 @@
+body {
+    margin: 0px;
+    background-image: url('image/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 微軟正黑體, 新細明體, 標楷體;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.menu {
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    background-color: dimgrey;
+    z-index: 9999999;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-family: 微軟正黑體, 新細明體, 標楷體;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    color: white;
+    font-family: 微軟正黑體, 新細明體, 標楷體;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.menu_css {
+    float: left;
+    width: 60%;
+    height: inherit;
+    overflow: hidden;
+    font-family: 微軟正黑體, 新細明體, 標楷體;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    border-spacing: 0px;
+}
+
+.menu_css tr {
+    display: block;
+}
+
+.menu_css td {
+    height: 40px;
+    padding: 0px 15px 0px 15px;
+    white-space: nowrap;
+}
+
+.menu_css td:hover {
+    background-color: black;
+    transition: background-color 0.8s;
+}
+
+.send {
+    background-color: navajowhite;
+}
+
+.menu_search {
+    width: 30%;
+    height: inherit;
+    white-space: nowrap;
+    font-family: 微軟正黑體, 新細明體, 標楷體;
+    font-weight: bold;
+    float: right;
+    font-size: 17px;
+    color: white;
+}
+
+.menu_search tr {
+    display: block;
+}
+
+.menu_search td {
+    height: 40px;
+    padding: 0px 15px 0px 15px;
+}
+
+.content {
+    position: relative;
+    word-wrap: break-word;
+    width: 80%;
+    top: 40px;
+    background-color: #f1f1f1;
+}
+
+.inner_content {
+    padding: 50px 50px 220px 50px;
+}
+
+.inner_content table {
+    background-color: white;
+}
+
+li img {
+    width: 100%;
+    height: 100%;
+}
+
+input[type=text] {
+    color: black;
+}
+
+form {
+    margin-bottom: 0em;
+}
+
+.title_hr{
+    width:80%;
+    margin:0 auto;
+    border: 0;
+    height: 4px;
+    background: #333;
+    background-image: linear-gradient(to right, red, #333, green);
+}
